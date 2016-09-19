@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/form_user_title"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/form_user_full_name"
+        android:inputType="textCapWords"
+        />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/form_user_email"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/form_user_password"
+        android:inputType="textPassword"
+        android:nextFocusDown="@+id/birthdate"
+        />
+    <EditText
+        android:id="@+id/datepicker_birthdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/form_user_birthdate"
+        android:inputType="none"
+        android:focusable="false"
+        />
+    <Spinner
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/genders"
+        />
+
+    <Button
+        android:id="@+id/btn_save_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/form_user_btn_save"
+        />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aula 04</string>
+
+    <string name="type_your_name">Digite seu nome</string>
+    <string name="type_your_login">Digite seu login</string>
+    <string name="type_your_email">Digite seu email</string>
+    <string name="type_your_password">Digite sua senha</string>
+    <string name="birthdate">Data de nascimento</string>
+    <string name="btn_save">Salvar</string>
+    <string name="user_form_title">Cadastro de Usuario</string>
+</resources>

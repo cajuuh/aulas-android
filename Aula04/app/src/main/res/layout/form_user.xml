@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/default_padding"
+    >
+
+    <!-- titulo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_padding"
+        android:text="@string/user_form_title"
+        android:layout_gravity="center_horizontal"
+        style="@style/AppTest.DefaultTitle"
+        />
+
+    <!-- nome -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_your_name"
+        tools:text="Digite seu nome"
+        android:inputType="textCapSentences"
+        />
+
+    <!-- login -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_your_login"
+        android:inputType="textCapSentences"
+        />
+
+    <!-- e-mail -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_your_email"
+        android:inputType="textEmailAddress"
+        />
+
+    <!-- senha -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_your_password"
+        android:inputType="textPassword"
+        />
+
+    <!-- data -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/birthdate"
+        android:inputType="date"
+        android:focusable="false"
+        />
+
+    <!-- btn salvar -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_save"
+        />
+
+</LinearLayout>
